@@ -1,1 +1,34 @@
 /* Write your CSS here! */
+h1 {
+    font-size: 70px;
+    color: orangered;
+    text-align: center;
+}
+h3 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+#navigationLinkImages {
+    opacity: 75%;
+    height: auto;
+}
+#safetyLinkPic {
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+#fireEatLinkPic {
+    position: relative;
+    left: 440px;
+    bottom: 75px
+}
+body {
+    color: white;
+    margin-bottom: 85px;
+    background-color: black;
+    background-image: url(images/fireOwl.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+};
+
