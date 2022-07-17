@@ -4,32 +4,25 @@
     color: orangered;
     text-align: center;
 }
+h2 {
+    text-align: center;
+}
 h3 {
     font-size: 50px;
     color: white;
     text-align: center;
 }
-#navigationLinkImages {
-    opacity: 70%;
+nav {
+    opacity: 85%;
     height: auto;
 }
-#safetyLinkPic {
-    position: relative;
-    left: 60px;
-    top: 20px;
-}
-#fireEatLinkPic {
-    position: relative;
-    left: 440px;
-    bottom: 75px
-}
+
 body {
     color: white;
-    margin-bottom: 85px;
-    background-color: black;
-    background-size: contain;
-    background-position: bottom;
-    background-image: url(images/poiBehindBackButterfly.jpg);
+    background-size: cover;
+    background-position: top;
+    background-image: url(images/torsoOnFire.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
-}; */
+    background-blend-mode: overlay;
+} */
