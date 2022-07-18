@@ -1,32 +1,49 @@
 /* Write your CSS here!*/
 body {
     margin: 8px;
-    padding: 10px;
+    padding: 1% 5%;
     display: block;
+    max-width: max-content;
     color: white;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-color: rgb(41, 1, 1);
-    background-image: url(images/holdingTorch.jpg);
+    /* background-image: url(images/holdingTorch.jpg); */
     background-repeat: no-repeat;
     background-attachment: local;
 }
 article.left-oriented-articles {
-    text-align: left;
-}
-article.right-oriented-articles {
     margin: 5px;
     padding: 5px;
     position: relative;
-    left: 700px;
     width: 600px;
+}
+figure.imgLeftArticleRight {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+article.right-oriented-articles {
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 60%;
+    right: 0px
+}
+figure.imgLeftArticleRight img {
+    margin: 5px;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-bottom: 0px;
+    width: 40%;
 }
 nav {
     font-size: medium;
 }
 h1 {color: red;
     text-align: center;
-    font-size: 70px;
+    font-size: 100px;
 }
 h2.right-oriented-headers {
     padding: 20px;
@@ -36,14 +53,3 @@ nav {
     opacity: 85%;
     height: auto;
 }
-#torchOnArm {
-    right: 900px;
-    position: absolute;
-}
-
-
-/* h3 {
-    font-size: 50px;
-    color: white;
-    text-align: center;
-} */
