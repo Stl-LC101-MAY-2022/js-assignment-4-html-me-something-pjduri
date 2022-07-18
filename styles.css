@@ -1,50 +1,59 @@
 /* Write your CSS here!*/
 body {
     margin: 8px;
-    padding: 10px 25px;
+    padding: 10px;
     display: block;
     max-width: max-content;
-    color: white;
+    color: red;
     text-align: center;
     background-color: rgb(65, 38, 25);
     background-size: cover;
+    background-position: center;
     background-image: url(images/holdingTorch.jpg);
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-blend-mode: overlay;
-    width: fit-content;
     opacity: 80%;
+}
+#emptySpace {
+    margin: 100px;
+    padding: 100px
 }
 h1 {color: red;
     margin: 5px;
     padding: 5px;
     text-align: center;
-    font-size: 150px;
+    font-size: 110px;
     font-style: italic;
     font-family: cursive
-}
-div#gear {
-    margin-top: 90px;
-    margin-bottom: 90px;;
 }
 h2 {
     margin: 10px;
     padding: 10px;
-    font-size: 90px;
+    font-size: 80px;
     color: orangered;
 }
 h3 {
     margin: 10px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 70px;
     color: orange
 }
 nav {
-    margin: 10px;
+    margin: 90px;
+    margin-bottom: 190px;
     padding: 10px;
     font-size: 70px;
 }
+p {
+    margin:5px;
+    padding: 5px;
+    font-size: 30px;
+}
 ul {
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
     text-align: left;
 }
 p.funParagraph#testP {
@@ -54,53 +63,95 @@ img {
     opacity: 65%;
 }
 figure.imgRightArticleLeft {
-    margin: 10px;
+    margin: 20px;
+    margin-bottom: 80px;
     padding: 10px;
     display: flex;
     align-items: center;
 }
 article.left-oriented-articles {
     margin: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
     padding: 10px;
-    height: 50%;
-    width: 60%
+    text-align: left;
+    width: 60%;
+    left: 0px
 }
 figure.imgRightArticleLeft img {
     margin: 10px;
+    margin-left: 60px;
+    margin-right: 5px;
     padding: 10px;
     width: 20%;
+    right: 0px
 }
 figure.imgLeftArticleRight {
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     display: flex;
     align-items: center;
 }
 article.right-oriented-articles {
     margin: 10px;
+    margin-left: 40px;
+    margin-right: 5px;
     padding: 10px;
-    width: 40%;
+    text-align: right;
+    width: 60%;
+    right: 0px
 }
 figure.imgLeftArticleRight img {
     margin: 10px;
+    margin-left: 5px;
+    margin-right: 60px;
     padding: 10px;
     width: 30%;
+    left: 0px
 }
 #picsEitherSide {
-    margin: 10px;
-    padding: 10px;
+    margin: 40px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 40px;
     display: flex;
     align-items: center;
 }
 #closingThoughts {
+    margin: 30px;
+    margin-left: 60px;
+    padding: 30px;
+    width: 40%
+}
+#gear {
     margin: 10px;
     padding: 10px;
 }
-footer {
-    text-align: left;
-    font-size: x-small;
+#poiPic {
+    margin:10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 20%;
+}
+#torchesPic {
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding:10px;
+    width: 10%
 }
 #thanks {
+    margin-top: 150px;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
-    font-size: large;
+    font-size: 20px;
+}
+footer {
+    margin-top: 150px;
+    margin-bottom: 10px;
+    margin: 10px;
+    padding:10px;
+    text-align: left;
+    font-size: 15px;
 }
