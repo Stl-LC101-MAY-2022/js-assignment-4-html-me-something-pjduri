@@ -5,49 +5,61 @@ body {
     display: block;
     max-width: max-content;
     color: white;
+    text-align: center;
     background-color: rgb(65, 38, 25);
     background-size: cover;
     background-image: url(images/holdingTorch.jpg);
     background-repeat: no-repeat;
-    background-attachment: local;
+    background-attachment:scroll;
     background-blend-mode: overlay;
+}
+ul {
+    text-align: left;
+}
+p.funParagraph#testP {
+    color: green;
 }
 img {
     opacity: 70%;
 }
 figure.imgRightArticleLeft {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
 }
 article.left-oriented-articles {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     height: 90%;
     width: 60%
 }
 figure.imgRightArticleLeft img {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     width: 25%
 }
 figure.imgLeftArticleRight {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
 }
 article.right-oriented-articles {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     width: 60%;
     right: 0px
 }
 figure.imgLeftArticleRight img {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     width: 25%;
+}
+#compareContrast {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
 nav {
     font-size: medium;
@@ -56,9 +68,6 @@ h1 {color: red;
     text-align: center;
     font-size: 150px;
 }
-h2.right-oriented-headers {
-    padding: 20px;
-    text-align: center;
 }
 nav {
     opacity: 85%;
