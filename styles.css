@@ -1,28 +1,49 @@
 /* Write your CSS here!*/
-/* h1 {
-    font-size: 70px;
-    color: orangered;
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
-h3 {
-    font-size: 50px;
+body {
+    margin: 8px;
+    padding: 10px;
+    display: block;
     color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(41, 1, 1);
+    background-image: url(images/holdingTorch.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+article.left-oriented-articles {
+    text-align: left;
+}
+article.right-oriented-articles {
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    left: 700px;
+    width: 600px;
+}
+nav {
+    font-size: medium;
+}
+h1 {color: red;
+    text-align: center;
+    font-size: 70px;
+}
+h2.right-oriented-headers {
+    padding: 20px;
     text-align: center;
 }
 nav {
     opacity: 85%;
     height: auto;
 }
+#torchOnArm {
+    right: 900px;
+    position: absolute;
+}
 
-body {
+
+/* h3 {
+    font-size: 50px;
     color: white;
-    background-size: cover;
-    background-position: top;
-    background-image: url(images/torsoOnFire.jpg);
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-blend-mode: overlay;
+    text-align: center;
 } */
