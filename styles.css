@@ -13,7 +13,6 @@ body {
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-blend-mode: overlay;
-    opacity: 80%;
 }
 #emptySpace {
     margin: 100px;
